@@ -15,7 +15,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="{% url 'home' %}">
                 <img src="{% static 'logo.png' %}" class='d-inline-block align-top' height=30 width=30>
                 Product Hunt
             </a>
@@ -25,8 +25,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="{% url 'sign_up' %}">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'login' %}">Login  </a></li>
+                    {% if user.is_authenticated %}
+                        <a class="nav-link nav-item" href="javascript:{document.getElementById('logout').submit()}" onclick="">Logout</a>
+                        <form id="logout" method="POST" action="{% url 'logout' %}">
+                            {% csrf_token %}
+                            <input type="hidden">
+                        </form>
+                    {% else %}
+                        <a class="nav-link nav-item" href="{% url 'sign_up' %}">Sign Up</a>
+                        <a class="nav-link nav-item" href="{% url 'login' %}">Login</a>
+                    {% endif %}
                 </ul>
             </div>
         </div>
