@@ -2,12 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a716f537-9aa8-4107-b56a-f3998976ab7c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/producthunt.iml" afterPath="$PROJECT_DIR$/.idea/producthunt.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" afterPath="$PROJECT_DIR$/accounts/views.py" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" afterPath="$PROJECT_DIR$/templates/accounts/login.html" />
-      <change beforePath="$PROJECT_DIR$/templates/producthunt/base.html" afterPath="$PROJECT_DIR$/templates/producthunt/base.html" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" afterPath="$PROJECT_DIR$/products/admin.py" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" afterPath="$PROJECT_DIR$/products/models.py" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE-SELECT2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/logo.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +140,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -36,23 +152,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/producthunt/base.html">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="35" column="87" lean-forward="true" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +199,8 @@
         <option value="$PROJECT_DIR$/templates/accounts/login.html" />
         <option value="$PROJECT_DIR$/templates/producthunt/base.html" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/products/admin.py" />
+        <option value="$PROJECT_DIR$/products/models.py" />
       </list>
     </option>
   </component>
@@ -132,29 +240,6 @@
             <path>
               <item name="producthunt" type="b2602c69:ProjectViewProjectNode" />
               <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="producthunt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="producthunt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="producthunt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="producthunt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="producthunt" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,9 +324,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291829" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -251,7 +337,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -273,7 +358,7 @@
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -291,7 +376,7 @@
         <state relative-caret-position="522">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -317,7 +402,7 @@
         <state relative-caret-position="126">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -327,7 +412,7 @@
         <state relative-caret-position="486">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -354,7 +439,7 @@
         <state relative-caret-position="126">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -364,7 +449,7 @@
         <state relative-caret-position="486">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,7 +481,7 @@
         <state relative-caret-position="126">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,30 +547,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/producthunt/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/producthunt/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="35" column="87" lean-forward="true" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
